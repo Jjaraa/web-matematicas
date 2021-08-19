@@ -11,6 +11,9 @@
     <header></header>
     <div class="container">
       <h1>Figuras Geométricas</h1>
+
+      <!-- CUADRADO -->
+
       <section class="card">
         <h2>Calcula el área de un cuadrado</h2>
         <form>
@@ -28,6 +31,53 @@
               class="button"
               type="button"
               onclick="calcularAreCuadrado()"
+            >
+              Calcular área
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- TRIANGULO -->
+
+      <section class="card">
+        <h2>Calcula el área de un triángulo</h2>
+        <form>
+          <label> Escriba valor de la base y la altura del triángulo </label>
+          <input class="input" id="inputBaseTriangulo" type="number" placeholder="base" />
+          <input class="input" id="inputAlturaTriangulo" type="number" placeholder="altura" />
+          <div class="buttons">
+            </button>
+            <button
+              class="button"
+              type="button"
+              onclick="calcularAreaTriangulo()"
+            >
+              Calcular área
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- CIRCUNFERENCIA -->
+
+      <section class="card">
+        <h2>Calcula el área de una circunferencia</h2>
+        <form>
+          <label> Escriba valor del radio de la circunferencia </label>
+          <input class="input" id="inputCirculo" type="number" />
+          <div class="buttons">
+            <button
+              class="button"
+              type="button"
+              onclick="calcularPerCirculo()"
+            >
+              Calcular perímetro
+            </button>
+            <button
+              class="button"
+              type="button"
+              onclick="calcularAreaCirculo()"
             >
               Calcular área
             </button>

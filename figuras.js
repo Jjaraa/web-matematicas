@@ -39,3 +39,25 @@ function calcularAreCuadrado() {
   const area = areaCuadrado(value);
   alert(area);
 }
+
+function calcularAreaTriangulo() {
+  const base = document.getElementById("inputBaseTriangulo").value;
+  const altura = document.getElementById("inputAlturaTriangulo").value;
+
+  const area = areaTriangulo(base, altura);
+  alert(area);
+}
+
+function calcularAreaCirculo() {
+  const radio = document.getElementById("inputCirculo").value;
+
+  const area = areaCirculo(radio);
+  alert(area);
+}
+
+function calcularPerCirculo() {
+  const radio = document.getElementById("inputCirculo").value;
+
+  const area = perimetroCirculo(radio);
+  alert(area);
+}

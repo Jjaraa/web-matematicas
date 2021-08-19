@@ -6,6 +6,7 @@
     flex-direction: column;
     padding: 0px  30px;
     min-height: calc(100vh - 200px);
+    
 }
 
 .card {
@@ -16,6 +17,7 @@
     padding: 20px 28px 10px;
     min-height: 200px;
     width: 400px;
+    margin-bottom: 50px;
 }
 
 .input {
