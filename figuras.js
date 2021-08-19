@@ -17,9 +17,25 @@ function areaTriangulo(base, altura) {
 const PI = Math.PI;
 
 function perimetroCirculo(radio) {
-    return 2 * PI * radio;
+  return 2 * PI * radio;
 }
 
 function areaCirculo(radio) {
-    return PI * radio * radio;
+  return PI * radio * radio;
+}
+
+function calcularPerCuadrado() {
+  const input = document.getElementById("inputCuadrado");
+  const value = input.value;
+
+  const perimetro = perimetroCuadrado(value);
+  alert(perimetro);
+}
+
+function calcularAreCuadrado() {
+  const input = document.getElementById("inputCuadrado");
+  const value = input.value;
+
+  const area = areaCuadrado(value);
+  alert(area);
 }
